@@ -1,0 +1,39 @@
+{
+  "dataset": "ESC-50 Environmental Sound Classification",
+  "total_samples": 2000,
+  "split": {
+    "train_folds": [
+      1,
+      2,
+      3
+    ],
+    "train_samples": 1200,
+    "val_fold": [
+      4
+    ],
+    "val_samples": 400,
+    "test_fold": [
+      5
+    ],
+    "test_samples": 400
+  },
+  "num_classes": 50,
+  "training_device": "GPU (NVIDIA GeForce RTX 3050 6GB Laptop GPU)",
+  "primary_gpu": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "cpu_model": "13th Gen Intel(R) Core(TM) i5-13420H",
+  "ram": "16.0 GB",
+  "epochs_trained": 50,
+  "batch_size": 32,
+  "training_time_sec": 629.82,
+  "training_time_mins": 10.5,
+  "best_val_accuracy_pct": 51.5,
+  "test_accuracy_pct": 43.75,
+  "test_precision_pct": 59.21,
+  "test_recall_pct": 43.75,
+  "test_f1_score_pct": 41.09,
+  "avg_prediction_latency_ms": 60.19,
+  "model_file": "audio_cnn_model.keras",
+  "previous_model_file": "audio_cnn_model_previous.keras",
+  "label_map_file": "label_mapping.json",
+  "timestamp": "2026-11-19 21:08:33"
+}

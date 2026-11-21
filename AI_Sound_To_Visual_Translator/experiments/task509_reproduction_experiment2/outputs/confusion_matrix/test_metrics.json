@@ -1,0 +1,268 @@
+{
+  "accuracy": 0.6575,
+  "precision": 0.6522249972249972,
+  "recall": 0.6575,
+  "f1_score": 0.6449187891571794,
+  "accuracy_pct": 65.75,
+  "precision_pct": 65.22,
+  "recall_pct": 65.75,
+  "f1_score_pct": 64.49,
+  "best_val_loss_restored_test_accuracy_pct": 65.75,
+  "best_val_loss_correct": 263,
+  "best_val_acc_checkpoint_test_accuracy_pct": 64.0,
+  "best_val_acc_correct": 256,
+  "total_test_samples": 400,
+  "avg_latency_ms": 18.37,
+  "per_class_report": {
+    "airplane": {
+      "precision": 42.86,
+      "recall": 37.5,
+      "f1_score": 40.0
+    },
+    "breathing": {
+      "precision": 55.56,
+      "recall": 62.5,
+      "f1_score": 58.82
+    },
+    "brushing_teeth": {
+      "precision": 75.0,
+      "recall": 75.0,
+      "f1_score": 75.0
+    },
+    "can_opening": {
+      "precision": 66.67,
+      "recall": 75.0,
+      "f1_score": 70.59
+    },
+    "car_horn": {
+      "precision": 70.0,
+      "recall": 87.5,
+      "f1_score": 77.78
+    },
+    "cat": {
+      "precision": 63.64,
+      "recall": 87.5,
+      "f1_score": 73.68
+    },
+    "chainsaw": {
+      "precision": 71.43,
+      "recall": 62.5,
+      "f1_score": 66.67
+    },
+    "chirping_birds": {
+      "precision": 72.73,
+      "recall": 100.0,
+      "f1_score": 84.21
+    },
+    "church_bells": {
+      "precision": 100.0,
+      "recall": 87.5,
+      "f1_score": 93.33
+    },
+    "clapping": {
+      "precision": 60.0,
+      "recall": 37.5,
+      "f1_score": 46.15
+    },
+    "clock_alarm": {
+      "precision": 80.0,
+      "recall": 100.0,
+      "f1_score": 88.89
+    },
+    "clock_tick": {
+      "precision": 55.56,
+      "recall": 62.5,
+      "f1_score": 58.82
+    },
+    "coughing": {
+      "precision": 77.78,
+      "recall": 87.5,
+      "f1_score": 82.35
+    },
+    "cow": {
+      "precision": 77.78,
+      "recall": 87.5,
+      "f1_score": 82.35
+    },
+    "crackling_fire": {
+      "precision": 42.86,
+      "recall": 37.5,
+      "f1_score": 40.0
+    },
+    "crickets": {
+      "precision": 55.56,
+      "recall": 62.5,
+      "f1_score": 58.82
+    },
+    "crow": {
+      "precision": 100.0,
+      "recall": 87.5,
+      "f1_score": 93.33
+    },
+    "crying_baby": {
+      "precision": 71.43,
+      "recall": 62.5,
+      "f1_score": 66.67
+    },
+    "dog": {
+      "precision": 54.55,
+      "recall": 75.0,
+      "f1_score": 63.16
+    },
+    "door_wood_creaks": {
+      "precision": 83.33,
+      "recall": 62.5,
+      "f1_score": 71.43
+    },
+    "door_wood_knock": {
+      "precision": 85.71,
+      "recall": 75.0,
+      "f1_score": 80.0
+    },
+    "drinking_sipping": {
+      "precision": 60.0,
+      "recall": 37.5,
+      "f1_score": 46.15
+    },
+    "engine": {
+      "precision": 57.14,
+      "recall": 50.0,
+      "f1_score": 53.33
+    },
+    "fireworks": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0
+    },
+    "footsteps": {
+      "precision": 50.0,
+      "recall": 75.0,
+      "f1_score": 60.0
+    },
+    "frog": {
+      "precision": 80.0,
+      "recall": 50.0,
+      "f1_score": 61.54
+    },
+    "glass_breaking": {
+      "precision": 87.5,
+      "recall": 87.5,
+      "f1_score": 87.5
+    },
+    "hand_saw": {
+      "precision": 63.64,
+      "recall": 87.5,
+      "f1_score": 73.68
+    },
+    "helicopter": {
+      "precision": 14.29,
+      "recall": 12.5,
+      "f1_score": 13.33
+    },
+    "hen": {
+      "precision": 33.33,
+      "recall": 25.0,
+      "f1_score": 28.57
+    },
+    "insects": {
+      "precision": 66.67,
+      "recall": 50.0,
+      "f1_score": 57.14
+    },
+    "keyboard_typing": {
+      "precision": 54.55,
+      "recall": 75.0,
+      "f1_score": 63.16
+    },
+    "laughing": {
+      "precision": 71.43,
+      "recall": 62.5,
+      "f1_score": 66.67
+    },
+    "mouse_click": {
+      "precision": 83.33,
+      "recall": 62.5,
+      "f1_score": 71.43
+    },
+    "pig": {
+      "precision": 28.57,
+      "recall": 25.0,
+      "f1_score": 26.67
+    },
+    "pouring_water": {
+      "precision": 100.0,
+      "recall": 87.5,
+      "f1_score": 93.33
+    },
+    "rain": {
+      "precision": 87.5,
+      "recall": 87.5,
+      "f1_score": 87.5
+    },
+    "rooster": {
+      "precision": 66.67,
+      "recall": 100.0,
+      "f1_score": 80.0
+    },
+    "sea_waves": {
+      "precision": 87.5,
+      "recall": 87.5,
+      "f1_score": 87.5
+    },
+    "sheep": {
+      "precision": 85.71,
+      "recall": 75.0,
+      "f1_score": 80.0
+    },
+    "siren": {
+      "precision": 83.33,
+      "recall": 62.5,
+      "f1_score": 71.43
+    },
+    "sneezing": {
+      "precision": 85.71,
+      "recall": 75.0,
+      "f1_score": 80.0
+    },
+    "snoring": {
+      "precision": 87.5,
+      "recall": 87.5,
+      "f1_score": 87.5
+    },
+    "thunderstorm": {
+      "precision": 100.0,
+      "recall": 87.5,
+      "f1_score": 93.33
+    },
+    "toilet_flush": {
+      "precision": 72.73,
+      "recall": 100.0,
+      "f1_score": 84.21
+    },
+    "train": {
+      "precision": 45.45,
+      "recall": 62.5,
+      "f1_score": 52.63
+    },
+    "vacuum_cleaner": {
+      "precision": 44.44,
+      "recall": 50.0,
+      "f1_score": 47.06
+    },
+    "washing_machine": {
+      "precision": 22.22,
+      "recall": 25.0,
+      "f1_score": 23.53
+    },
+    "water_drops": {
+      "precision": 33.33,
+      "recall": 12.5,
+      "f1_score": 18.18
+    },
+    "wind": {
+      "precision": 46.15,
+      "recall": 75.0,
+      "f1_score": 57.14
+    }
+  }
+}

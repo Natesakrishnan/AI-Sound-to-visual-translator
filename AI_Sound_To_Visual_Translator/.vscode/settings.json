@@ -1,0 +1,15 @@
+{
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}",
+    "${workspaceFolder}/src",
+    "k:/AI project/AI_Sound_To_Visual_Translator",
+    "k:/AI project/AI_Sound_To_Visual_Translator/src"
+  ],
+  "python.autoComplete.extraPaths": [
+    "${workspaceFolder}",
+    "${workspaceFolder}/src",
+    "k:/AI project/AI_Sound_To_Visual_Translator",
+    "k:/AI project/AI_Sound_To_Visual_Translator/src"
+  ],
+  "python.defaultInterpreterPath": "C:\\Users\\Nadesa Krishnan\\AppData\\Local\\Programs\\Python\\Python313\\python.exe"
+}

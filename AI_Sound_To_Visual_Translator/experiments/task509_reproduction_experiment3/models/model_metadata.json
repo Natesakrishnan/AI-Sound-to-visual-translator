@@ -1,0 +1,46 @@
+{
+  "experiment": "Task 509 Controlled Reproduction - Experiment 3",
+  "permitted_changes": [
+    "Disabled ReduceLROnPlateau completely",
+    "Maintained constant learning rate 0.0005 across all 40 epochs"
+  ],
+  "dataset": "ESC-50 Environmental Sound Classification",
+  "total_samples": 2000,
+  "split": {
+    "train_folds": [
+      1,
+      2,
+      3
+    ],
+    "train_samples": 1200,
+    "val_fold": [
+      4
+    ],
+    "val_samples": 400,
+    "test_fold": [
+      5
+    ],
+    "test_samples": 400
+  },
+  "num_classes": 50,
+  "training_device": "GPU (NVIDIA GeForce RTX 3050 6GB Laptop GPU)",
+  "primary_gpu": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "cpu_model": "13th Gen Intel(R) Core(TM) i5-13420H",
+  "ram": "16.0 GB",
+  "epochs_trained": 11,
+  "batch_size": 32,
+  "training_time_sec": 209.71,
+  "training_time_mins": 3.5,
+  "best_val_accuracy_pct": 17.0,
+  "best_val_loss": 4.016,
+  "test_accuracy_pct": 17.25,
+  "test_precision_pct": 15.2,
+  "test_recall_pct": 17.25,
+  "test_f1_score_pct": 11.32,
+  "best_val_loss_restored_test_acc": 2.0,
+  "best_val_acc_checkpoint_test_acc": 17.25,
+  "avg_prediction_latency_ms": 72.69,
+  "model_file": "audio_cnn_model_task509.keras",
+  "label_map_file": "label_mapping.json",
+  "timestamp": "2026-11-20 09:21:35"
+}

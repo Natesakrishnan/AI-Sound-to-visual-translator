@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.4375,
+  "precision": 0.5921,
+  "recall": 0.4375,
+  "f1_score": 0.4109,
+  "accuracy_pct": 43.75,
+  "precision_pct": 59.21,
+  "recall_pct": 43.75,
+  "f1_score_pct": 41.09,
+  "total_test_samples": 400,
+  "correct_predictions": 175
+}

@@ -1,0 +1,131 @@
+# ==============================================================================
+# .gitignore for AI-Based Sound-to-Visual Translation System
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. CRITICAL: Large Files (>100 MB Hard Limit on GitHub)
+# ------------------------------------------------------------------------------
+# GitHub strictly rejects pushes containing files > 100 MB.
+# Archives and zip files (e.g., experiment backups ~210 MB)
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# Precomputed Feature Caches (~165 MB - 170 MB each)
+*.npz
+*.npy
+cache/
+*/cache/
+outputs/cache/
+experiments/*/cache/
+
+# ------------------------------------------------------------------------------
+# 2. Audio Datasets & Raw Media
+# ------------------------------------------------------------------------------
+# ESC-50 dataset files (2,000 WAV files) bloat git history and exceed storage quotas
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+dataset/
+datasets/
+data/
+
+# ------------------------------------------------------------------------------
+# 3. Deep Learning Model Weights & Checkpoints (.keras / .h5 / .pt)
+# ------------------------------------------------------------------------------
+# Binary model weights (16.5 MB each, ~230 MB total across experiments)
+# Store weights in GitHub Releases, HuggingFace, or via Git LFS instead of git tracking
+*.keras
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.weights.h5
+
+# ------------------------------------------------------------------------------
+# 4. Generated Artwork Outputs
+# ------------------------------------------------------------------------------
+# User-generated visual renderings and high-resolution PNG exports
+outputs/generated_visuals/
+*.png_temp
+
+# ------------------------------------------------------------------------------
+# 5. Local Pre-Integration Backups
+# ------------------------------------------------------------------------------
+src/backup_*/
+backup/
+backups/
+*.bak
+*.old
+
+# ------------------------------------------------------------------------------
+# 6. Python Bytecode, Caches & Build Artifacts
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ------------------------------------------------------------------------------
+# 7. Virtual Environments
+# ------------------------------------------------------------------------------
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# ------------------------------------------------------------------------------
+# 8. IDE, Editor & OS System Files
+# ------------------------------------------------------------------------------
+# Visual Studio Code (ignore user workspace state, keep team configs if desired)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+
+# Windows / macOS system files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# ------------------------------------------------------------------------------
+# 9. Logs & Runtime Diagnostics
+# ------------------------------------------------------------------------------
+*.log
+logs/

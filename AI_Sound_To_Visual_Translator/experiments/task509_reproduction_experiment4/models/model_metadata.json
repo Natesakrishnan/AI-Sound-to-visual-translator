@@ -1,0 +1,53 @@
+{
+  "experiment": "Task 509 Controlled Reproduction - Experiment 4",
+  "only_experimental_change": "ReduceLROnPlateau patience increased from 3 to 5 (factor=0.5, min_lr=1e-5)",
+  "dataset": "ESC-50 Environmental Sound Classification",
+  "total_samples": 2000,
+  "split": {
+    "train_folds": [
+      1,
+      2,
+      3
+    ],
+    "train_samples": 1200,
+    "val_fold": [
+      4
+    ],
+    "val_samples": 400,
+    "test_fold": [
+      5
+    ],
+    "test_samples": 400
+  },
+  "num_classes": 50,
+  "training_device": "GPU (NVIDIA GeForce RTX 3050 6GB Laptop GPU)",
+  "primary_gpu": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "cpu_model": "13th Gen Intel(R) Core(TM) i5-13420H",
+  "ram": "16.0 GB",
+  "epochs_trained": 40,
+  "batch_size": 32,
+  "training_time_sec": 7519.31,
+  "training_time_mins": 125.32,
+  "best_val_accuracy_pct": 78.5,
+  "best_val_accuracy_epoch": 38,
+  "best_val_loss": 0.8079,
+  "best_val_loss_epoch": 38,
+  "test_accuracy_pct": 71.0,
+  "test_precision_pct": 70.62,
+  "test_recall_pct": 71.0,
+  "test_f1_score_pct": 69.24,
+  "best_val_loss_restored_test_acc": 71.0,
+  "best_val_acc_checkpoint_test_acc": 71.0,
+  "avg_prediction_latency_ms": 186.27,
+  "lr_at_key_epochs": {
+    "epoch_5": 0.0005000000237487257,
+    "epoch_8": 0.0002500000118743628,
+    "epoch_11": 0.0002500000118743628,
+    "epoch_15": 0.0002500000118743628,
+    "epoch_20": 0.0002500000118743628,
+    "epoch_25": 0.0002500000118743628
+  },
+  "model_file": "audio_cnn_model_task509.keras",
+  "label_map_file": "label_mapping.json",
+  "timestamp": "2026-11-20 11:55:35"
+}
